@@ -214,6 +214,11 @@ header button {
     .container {
         grid-template-columns: 33% 33% 33%;
     }
+    .info-details {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 20px 40px;
+    }
 }
 
 @media (min-width:1440px) {
@@ -222,11 +227,6 @@ header button {
     }
     .container {
         grid-template-columns: 25% 25% 25% 25%;
-    }
-    .info-details {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        padding: 20px 40px;
     }
     .info-details img {
         width: 550px;
