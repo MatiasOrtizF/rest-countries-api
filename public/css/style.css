@@ -181,6 +181,11 @@ header button {
     .container {
         grid-template-columns: 50% 50%;
     }
+    .info-details {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 20px 40px;
+    }
     .info-country {
         margin: 30px;
     }
@@ -198,9 +203,6 @@ header button {
     }
     .css-t3ipsp-control {
         padding: 10px;
-    }
-    .css-13cymwt-control:hover {
-
     }
     header {
         font-size: 20px;
